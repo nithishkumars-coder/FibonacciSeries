@@ -11,9 +11,9 @@ int sumSeries(int size){
   return summ;
 }
 int getEvenNumbers(int size){
-  for(int i=0;i<size;i++){
+  for(int i=1;i<size;i++){
       if(fibo[i]%2==0){
-        prinf("\n%d",fibo[i]);
+        printf("%d ",fibo[i]);
       }
   }
 }
