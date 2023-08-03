@@ -4,13 +4,23 @@ int fibo[1000];
 
 int sumSeries(int size){
   int summ = 0;
-  for(int i = 2; i < size; i++){
+  for(int i = 0; i < size+1; i++){
     summ += fibo[i];
   }
   printf("\n%d", summ);
   return summ;
 }
 int getEvenNumbers(int size){
+
+	printf("\n");
+  for(int i=1;i<size;i++){
+      if(fibo[i]%2==0){
+        prinf("%d ",fibo[i]);
+      }
+  }
+}
+int getOddNumbers(int size){
+	printf("\n");
   for(int i=1;i<size;i++){
       if(fibo[i]%2==0){
         printf("%d ",fibo[i]);
@@ -42,5 +52,6 @@ int main()
     fibonacci(n);
     sumSeries(n);
     getEvenNumbers(n);
+	getOddNumbers(n);
    return 0;
 }
