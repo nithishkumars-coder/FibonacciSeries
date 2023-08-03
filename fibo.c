@@ -31,7 +31,8 @@ void fibonacci(int n){
     {
       printf("%d ",fibo[i]);
     }
-}
+} 
+
 int main()
 {
     int n;
