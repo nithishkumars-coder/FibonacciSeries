@@ -7,10 +7,11 @@ int sumSeries(int size){
   for(int i = 2; i < size; i++){
     summ += fibo[i];
   }
-  printf("%d", summ);
+  printf("\n%d", summ);
   return summ;
 }
 
+int fibo[1000];
 void fibonacci(int n){
     int i;
 
@@ -20,7 +21,10 @@ void fibonacci(int n){
     {
       fibo[i]=fibo[i-1]+fibo[i-2];
     }
-
+    for (i=0;i<n;i++)
+    {
+      printf("%d ",fibo[i]);
+    }
 }
 int main()
 {
