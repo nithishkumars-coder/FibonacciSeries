@@ -17,13 +17,7 @@ int getEvenNumbers(int size){
       }
   }
 }
-int getOddNumbers(int size){
-  for(int i=0;i<size;i++){
-      if(fibo[i]%2==1){
-        prinf("%d ",fibo[i]);
-      }
-  }
-}
+
 int fibo[1000];
 void fibonacci(int n){
     int i;
