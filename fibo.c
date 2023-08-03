@@ -1,6 +1,7 @@
 #include <stdio.h>
+int fibo[1000];
 void fibonacci(int n){
-    int fibo[10],i;
+    int i;
     fibo[0]=0;
     fibo[1]=1;
     for (i=2;i<n;i++)
