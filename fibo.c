@@ -4,7 +4,9 @@ int fibo[1000];
 
 int sumSeries(int size){
   int summ = 0;
+
   for(int i = 0; i < size; i++){
+
     summ += fibo[i];
   }
   printf("\n%d", summ);
@@ -59,6 +61,5 @@ int main()
     getEvenNumbers(n);
 	getOddNumbers(n);
   nthElement(n);
-  getMaxValue(n);
    return 0;
 }
