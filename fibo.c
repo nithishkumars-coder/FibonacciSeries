@@ -4,7 +4,11 @@ int fibo[1000];
 
 int sumSeries(int size){
   int summ = 0;
+<<<<<<< HEAD
   for(int i = 0; i < size/2; i++){
+=======
+  for(int i = 0; i < size+1; i++){
+>>>>>>> parent of ec5f7aa (Merge pull request #6 from selva-0102/main)
     summ += fibo[i];
   }
   printf("\n%d", summ);
