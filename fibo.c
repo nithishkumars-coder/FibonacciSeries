@@ -44,6 +44,10 @@ void fibonacci(int n){
     }
 } 
 
+int nthElement(int n){
+  return fibo[n-1];
+}
+
 int main()
 {
     int n;
@@ -53,5 +57,6 @@ int main()
     sumSeries(n);
     getEvenNumbers(n);
 	getOddNumbers(n);
+  nthElement(n);
    return 0;
 }
