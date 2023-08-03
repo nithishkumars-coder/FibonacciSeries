@@ -27,9 +27,7 @@ int getOddNumbers(int size){
       }
   }
 }
-int getMaxValue(int n){
-  return fibo[n-1];
-}
+
 
 int fibo[1000];
 void fibonacci(int n){
