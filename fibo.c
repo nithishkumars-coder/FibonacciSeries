@@ -59,5 +59,6 @@ int main()
     getEvenNumbers(n);
 	getOddNumbers(n);
   nthElement(n);
+  getMaxValue(n);
    return 0;
 }
